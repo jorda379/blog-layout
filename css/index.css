@@ -13,4 +13,6 @@ body
     background-color: dodgerblue;
     color: white;
   }
-  .pagination a:hover:not(.active) {background-color: #ddd;}
+  .pagination a:hover:not(.active) {background-color: #ddd;}+
+
+  .+
