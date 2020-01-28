@@ -1,12 +1,50 @@
-body {
-    background-color: rgb(178, 212, 216);
-    font-family: Arial, Helvetica, sans-serif;
+:root {
+    --accent-col:rgb(183, 236, 241);
+    --primary-background-col:  mistyrose;
+    --font-col:rgb(126, 113, 113);
+    --primary-font:Arial, Helvetica, sans-serif;
+    --secondary-font: 'Zhi Mang Xing', cursive;
+
 }
+
+
+body {
+    background-color: var(--accent-col);
+    font-family: var(--primary-font);
+    
+}
+
 h1 {
     text-align: center;
-    background-color: mistyrose;
+    background-color: var(--primary-background-col);
     padding: 0.25em;
 }
+#time {
+    font-family: var(--secondary-font);
+}
+
+p{
+    color: var( --font-col);
+}
+
+.first-list { 
+    line-height: 1.50;
+
+}
+
+blockquote {
+    font-family: var( --secondary-font);
+    font-size: larger;
+}
+.container {
+    box-sizing: border-box;
+    width: auto;
+    max-width: 60em;
+    min-width: 40em;
+    height: auto;
+    padding: 0 6em 0 6em;
+}
+
 .logo {
     width:100%;
 }
